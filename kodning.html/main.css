@@ -1,5 +1,5 @@
 body {
-    color: black;
+    color: rgb(54, 102, 74);
 }
 
 strong {
@@ -8,8 +8,27 @@ strong {
     font-size: 1.8em;
 }
 
-    p {
-        color: coral; 
-        font-size: 24px;
-        font-weight:  
-    }
+p {
+    color: rgb(163, 13, 13); 
+    font-size: 24px;
+    font-family: "futura";
+} 
+
+li {
+    border-style: dotted;
+    border-top-style: double;
+    padding: 9px;
+    margin: 10px;
+}
+
+.listMargin{
+margin-bottom: 50px;
+}
+
+li.listMargin{
+    color: darkblue
+}
+
+h3.listMargin{
+    color: magenta
+}
